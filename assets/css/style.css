@@ -55,6 +55,15 @@ p{
     padding: 0.625rem 1.5rem;
 }
 
+.btn-secondary{
+    background: var(--primary-color);
+    color: #FFF;
+    font-family: Poppins;
+    font-weight: 700;
+    border: 0;
+    padding: 0.625rem 1.5rem;
+}
+
 /* ================= */
 /* -----Header Styles----- */
 /* ================ */
@@ -149,6 +158,36 @@ nav{
     letter-spacing: 0.252px;
     margin-top: 0.625rem;
 }
+
+.see-more{
+    color: var(--primary-color);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* ========================*/
+/* -----One Place Styles----- */
+/* ================ =======*/
+.features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.features-title{
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 3.75rem;
+}
+
+.features-description{
+    margin: 1rem 0rem;
+    width: 31.25rem;
+}
+
 
 
 /* -----Responsive  Styles----- */
