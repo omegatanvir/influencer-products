@@ -1,5 +1,7 @@
 /* Poppins Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+/* Inter Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 /* ================ */
 /* -----Common Styles----- */
@@ -7,6 +9,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 .container{
@@ -106,3 +109,56 @@ nav{
     transform: rotate(20deg);
     transition: 2s;
 }
+
+/* ========================*/
+/* -----Popular-Collection Styles----- */
+/* ================ =======*/
+.popular-title{
+    font-weight: 600;
+    line-height: 70px; /* 250% */
+    text-align: center;
+}
+
+.popular-collection{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card{
+    border-radius: 5px;
+    background: var(--white-color);
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 2rem;
+}
+.card img{
+    width: 18.75rem;
+    height: 16rem;
+}
+.card-price{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.card-description{
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 0.252px;
+    margin-top: 0.625rem;
+}
+
+
+/* -----Responsive  Styles----- */
+/* ================ */
+@media screen and (max-width: 570px) {
+    nav,
+    .hero-section,
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
