@@ -189,7 +189,30 @@ nav{
 }
 
 
+/* ========================*/
+/* -----Footer Section Styles----- */
+/* ================ =======*/
+.footer-section{
+    background: #0A0826;
+    text-align: center;
+    padding: 3.125rem 0rem;
+    margin-top: 5rem;
+}
 
+.footer-title{
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+.footer-description{
+    color: #D9DBE1;
+    margin-bottom: 0.312rem;
+}
+
+.footer-icon img{
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
 /* -----Responsive  Styles----- */
 /* ================ */
 @media screen and (max-width: 570px) {
