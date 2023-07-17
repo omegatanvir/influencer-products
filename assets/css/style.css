@@ -33,11 +33,23 @@ h2{
     line-height: 4.375rem;
 }
 
+p{
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.section-gap{
+    margin: 2.5rem 0;
+}
+
+/* Button Design */
 .btn-primary{
     border-radius: 2.563rem;
     background: var(--primary-color);
     color: var(--white-color);
     font-weight: 700;
+    border: 0;
+    padding: 0.625rem 1.5rem;
 }
 
 /* ================= */
@@ -64,4 +76,33 @@ nav{
 
 .menu ul img{
     width: 100%;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.hero-title{
+    color: var(--secondary-color);
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.hero-description{
+    margin: 1rem 0rem;
+}
+
+.hero-img{
+    background-image: url('../img/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-img:hover{
+    transform: rotate(20deg);
+    transition: 2s;
 }
